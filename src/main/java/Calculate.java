@@ -8,22 +8,61 @@ public class Calculate {
     public static void main(String[] args) {
     }
 
-    public int add(int a, int b) {
+    public double add(double a, double b) {
 
         return a + b;
     }
 
-    public int multiply(int a, int b) {
+    public double multiply(double a, double b) {
 
         return a * b;
     }
+    public double rob(double a, double b ) {
 
+        return a - b;
 
+    }
+    public double div(double a, double b ) {
+
+        return a / b;
+    }
+    public double squareRoot(double a) {
+
+        return Math.sqrt(a);
+    }
 
     //TODO
     //add methods for multiply, division, subtraction, square root, x^2
 
-}
+    public class Calculate {
+
+        public static void main(String[] args) {
+        }
+
+        public int add(int a, int b) {
+
+            return a + b;
+        }
+
+        public int multiply(int a, int b) {
+
+            return a * b;
+        }
+
+
+
+        //TODO
+        //add methods for multiply, division, subtraction, square root, x^2
+
+    }
+
+
+
+
+
+
+
+
 
 
 
