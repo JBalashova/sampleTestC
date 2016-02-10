@@ -27,6 +27,10 @@ public class Calculate {
 
         return a / b;
     }
+    public double div(double a, double b ) {
+
+        return a / b;
+    }
 
     public double squareRoot(double a) {
 
