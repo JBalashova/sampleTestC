@@ -36,6 +36,10 @@ public class Calculate {
 
         return Math.sqrt(a);
     }
+    public double percent (double a, double b) {
+
+        return a /100 * b;
+    }
 
     //TODO
     //add methods for multiply, division, subtraction, square root, x^2
