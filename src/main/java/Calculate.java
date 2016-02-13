@@ -41,7 +41,7 @@ public class Calculate {
     }
     public double percent (double a, double b) {
 
-        return a /100 * b;
+        return a * b / 100;
     }
 
     //TODO

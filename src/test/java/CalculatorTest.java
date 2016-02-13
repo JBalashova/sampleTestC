@@ -108,7 +108,7 @@ import static org.junit.Assert.assertEquals;
     public void testDivTwoPositiveValues() {
         // Method to check
         Assert.assertEquals("36/6.0 must be 6.0", 6.0, calculator.div(36, 6.0));
-        Assert.assertEquals(25.0, calculator.div(25, 5.0));
+        Assert.assertEquals(5.0, calculator.div(25, 5.0));
         // Method to check
         // assertEquals("36 / 6 must be 6", 6, calculator.div(36, 6));
     }
@@ -128,8 +128,8 @@ import static org.junit.Assert.assertEquals;
         Calculate calc = new Calculate();
 
         // Method to check
-        Assert.assertEquals(0.42, calculator.percent(7.0, 6.0));
-
+        Assert.assertEquals(5.0, calculator.percent(10.0, 50.0));
+    }
         @Before
         public void consolePrintbefore () {
             System.out.println("Tests started!!! ");
