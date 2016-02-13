@@ -131,13 +131,14 @@ import static org.junit.Assert.assertEquals;
         Assert.assertEquals(0.42, calculator.percent(7.0, 6.0));
 
         @Before
-        public void consolePrint() {
+        public void consolePrintbefore () {
             System.out.println("Tests started!!! ");
 
         }
 
 
         @After
-        public void consolePrintAfter() {
+        public void consolePrintAfter () {
             System.out.println("Tests finished!!! ");
         }
+    }
